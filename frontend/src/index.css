@@ -1,0 +1,144 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-glow: conic-gradient(
+    from 180deg at 50% 50%,
+    #2464eb33 0deg,
+    #3f83f833 55deg,
+    #3f83f833 120deg,
+    #0bc5ea33 160deg,
+    transparent 360deg
+  );
+  --secondary-glow: radial-gradient(
+    rgba(1, 65, 255, 0.2),
+    rgba(1, 65, 255, 0)
+  );
+}
+
+.dark-theme {
+  --primary-glow: radial-gradient(
+    rgba(1, 65, 255, 0.4),
+    rgba(1, 65, 255, 0)
+  );
+  --secondary-glow: linear-gradient(
+    to bottom right,
+    rgba(1, 65, 255, 0.0),
+    rgba(1, 65, 255, 0.0),
+    rgba(1, 65, 255, 0.3)
+  );
+}
+
+html {
+  @apply scroll-smooth;
+}
+
+body {
+  @apply antialiased bg-gray-50 dark:bg-slate-900 text-gray-900 dark:text-gray-100;
+  font-feature-settings: 'ss01', 'ss02', 'cv01', 'cv03';
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-100 dark:bg-slate-800;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-300 dark:bg-slate-600 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-400 dark:bg-slate-500;
+}
+
+/* Glass effect */
+.glass {
+  @apply backdrop-blur-md bg-white/70 dark:bg-slate-800/60 border border-gray-200 dark:border-slate-700;
+}
+
+.glass-card {
+  @apply glass rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300;
+}
+
+/* Button styles */
+.btn {
+  @apply px-4 py-2 rounded-lg font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2;
+}
+
+.btn-primary {
+  @apply bg-blue-600 hover:bg-blue-700 text-white focus:ring-blue-500;
+}
+
+.btn-secondary {
+  @apply bg-gray-200 dark:bg-slate-700 hover:bg-gray-300 dark:hover:bg-slate-600 text-gray-800 dark:text-gray-200 focus:ring-gray-400 dark:focus:ring-slate-500;
+}
+
+.btn-accent {
+  @apply bg-purple-600 hover:bg-purple-700 text-white focus:ring-purple-500;
+}
+
+.btn-success {
+  @apply bg-green-600 hover:bg-green-700 text-white focus:ring-green-500;
+}
+
+.btn-danger {
+  @apply bg-red-600 hover:bg-red-700 text-white focus:ring-red-500;
+}
+
+/* Background glow effect */
+.bg-glow {
+  position: absolute;
+  width: 40%;
+  height: 40%;
+  opacity: 0.15;
+  filter: blur(80px);
+  transform: translateZ(0);
+  background-image: var(--primary-glow);
+  z-index: -1;
+}
+
+.bg-glow-top {
+  top: 0;
+  left: 20%;
+}
+
+.bg-glow-right {
+  bottom: 20%;
+  right: -10%;
+}
+
+/* Animation classes */
+@keyframes pulse-slow {
+  0%, 100% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 0.8;
+  }
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* NGL viewer custom styles */
+.viewer-container {
+  @apply rounded-xl overflow-hidden border border-gray-200 dark:border-slate-700;
+}
+
+.viewer-container canvas {
+  @apply outline-none;
+}
+
+/* Progress indicator */
+.progress-ring__circle {
+  transform-origin: center;
+  transform: rotate(-90deg);
+  transition: stroke-dashoffset 0.5s ease;
+}

@@ -1,0 +1,98 @@
+HEADER                                            18-OCT-22                     
+TITLE     ESMFOLD V1 PREDICTION FOR INPUT
+REMARK   1                                                                      
+REMARK   1 REFERENCE 1                                                          
+REMARK   1  AUTH   ZEMING LIN, HALIL AKIN, ROSHAN RAO, BRIAN HIE, ZHONGKAI ZHU,
+REMARK   1  AUTH 2 WENTING LU, NIKITA SMETANIN, ROBERT VERKUIL, ORI KABELI,
+REMARK   1  AUTH 3 YANIV SHMUELI, ALLAN DOS SANTOS COSTA,
+REMARK   1  AUTH 4 MARYAM FAZEL-ZARANDI, TOM SERCU, SALVATORE CANDIDO,
+REMARK   1  AUTH 5 ALEXANDER RIVES
+REMARK   1  TITL   EVOLUTIONARY-SCALE PREDICTION OF ATOMIC LEVEL PROTEIN
+REMARK   1  TITL 2 STRUCTURE WITH A LANGUAGE MODEL
+REMARK   1  REF                                                                 
+REMARK   1  REFN                                                                
+REMARK   1  PMID                                                                
+REMARK   1  DOI    10.1101/2022.07.20.500902                                    
+REMARK   1                                                                      
+REMARK   1 LICENSE AND DISCLAIMERS                
+REMARK   1 ESM METAGENOMIC ATLAS DATA IS AVAILABLE UNDER
+REMARK   1 A CC-BY-4.0 LICENSE FOR ACADEMIC AND COMMERCIAL USE.
+REMARK   1 COPYRIGHT (C) META PLATFORMS, INC. ALL RIGHTS RESERVED.
+REMARK   1 USE OF THE ESM METAGENOMIC ATLAS DATA IS SUBJECT
+REMARK   1 TO THE META OPEN SOURCE TERMS OF USE AND PRIVACY POLICY.
+ATOM      1  N   GLY A   1       4.418   2.554  19.616  1.00  0.98           N  
+ATOM      2  CA  GLY A   1       4.997   2.488  18.283  1.00  0.98           C  
+ATOM      3  C   GLY A   1       3.981   2.712  17.180  1.00  0.99           C  
+ATOM      4  O   GLY A   1       2.773   2.683  17.425  1.00  0.98           O  
+ATOM      5  N   GLY A   2       4.467   3.031  15.867  1.00  0.99           N  
+ATOM      6  CA  GLY A   2       3.487   3.101  14.795  1.00  0.99           C  
+ATOM      7  C   GLY A   2       2.905   1.749  14.429  1.00  0.99           C  
+ATOM      8  O   GLY A   2       3.465   0.710  14.784  1.00  0.99           O  
+ATOM      9  N   GLY A   3       1.803   1.579  13.917  1.00  0.99           N  
+ATOM     10  CA  GLY A   3       1.220   0.340  13.428  1.00  0.99           C  
+ATOM     11  C   GLY A   3       1.981  -0.258  12.260  1.00  0.99           C  
+ATOM     12  O   GLY A   3       2.864   0.388  11.691  1.00  0.99           O  
+ATOM     13  N   PRO A   4       1.765  -1.484  12.058  1.00  0.99           N  
+ATOM     14  CA  PRO A   4       2.375  -2.108  10.881  1.00  0.99           C  
+ATOM     15  C   PRO A   4       1.952  -1.442   9.574  1.00  0.99           C  
+ATOM     16  CB  PRO A   4       1.871  -3.552  10.947  1.00  0.99           C  
+ATOM     17  O   PRO A   4       0.915  -0.776   9.523  1.00  0.99           O  
+ATOM     18  CG  PRO A   4       0.572  -3.470  11.681  1.00  0.98           C  
+ATOM     19  CD  PRO A   4       0.641  -2.321  12.646  1.00  0.98           C  
+ATOM     20  N   GLY A   5       2.792  -1.456   8.756  1.00  0.99           N  
+ATOM     21  CA  GLY A   5       2.465  -0.960   7.429  1.00  0.99           C  
+ATOM     22  C   GLY A   5       1.270  -1.658   6.808  1.00  0.99           C  
+ATOM     23  O   GLY A   5       0.833  -2.703   7.296  1.00  0.99           O  
+ATOM     24  N   GLY A   6       0.730  -1.068   5.789  1.00  0.99           N  
+ATOM     25  CA  GLY A   6      -0.350  -1.724   5.070  1.00  0.99           C  
+ATOM     26  C   GLY A   6       0.105  -2.946   4.296  1.00  0.99           C  
+ATOM     27  O   GLY A   6       1.304  -3.144   4.086  1.00  0.99           O  
+ATOM     28  N   GLY A   7      -0.768  -3.736   3.918  1.00  0.99           N  
+ATOM     29  CA  GLY A   7      -0.416  -4.904   3.126  1.00  0.98           C  
+ATOM     30  C   GLY A   7      -0.064  -4.565   1.689  1.00  0.99           C  
+ATOM     31  O   GLY A   7      -0.228  -3.423   1.257  1.00  0.99           O  
+ATOM     32  N   PRO A   8       0.448  -5.418   1.024  1.00  0.99           N  
+ATOM     33  CA  PRO A   8       0.740  -5.253  -0.402  1.00  0.99           C  
+ATOM     34  C   PRO A   8      -0.520  -5.061  -1.244  1.00  0.99           C  
+ATOM     35  CB  PRO A   8       1.450  -6.558  -0.770  1.00  0.99           C  
+ATOM     36  O   PRO A   8      -1.615  -5.438  -0.817  1.00  0.99           O  
+ATOM     37  CG  PRO A   8       0.927  -7.565   0.203  1.00  0.98           C  
+ATOM     38  CD  PRO A   8       0.577  -6.856   1.480  1.00  0.98           C  
+ATOM     39  N   GLY A   9      -0.290  -4.425  -2.365  1.00  0.99           N  
+ATOM     40  CA  GLY A   9      -1.399  -4.280  -3.295  1.00  0.99           C  
+ATOM     41  C   GLY A   9      -1.861  -5.600  -3.883  1.00  0.99           C  
+ATOM     42  O   GLY A   9      -1.201  -6.627  -3.711  1.00  0.99           O  
+ATOM     43  N   GLY A  10      -2.941  -5.553  -4.500  1.00  0.99           N  
+ATOM     44  CA  GLY A  10      -3.407  -6.751  -5.179  1.00  0.99           C  
+ATOM     45  C   GLY A  10      -2.619  -7.070  -6.435  1.00  0.99           C  
+ATOM     46  O   GLY A  10      -1.860  -6.233  -6.927  1.00  0.99           O  
+ATOM     47  N   GLY A  11      -2.714  -8.203  -6.907  1.00  0.99           N  
+ATOM     48  CA  GLY A  11      -2.055  -8.579  -8.148  1.00  0.99           C  
+ATOM     49  C   GLY A  11      -2.718  -7.990  -9.378  1.00  0.99           C  
+ATOM     50  O   GLY A  11      -3.784  -7.378  -9.282  1.00  0.99           O  
+ATOM     51  N   PRO A  12      -2.164  -7.982 -10.482  1.00  0.99           N  
+ATOM     52  CA  PRO A  12      -2.759  -7.551 -11.749  1.00  0.99           C  
+ATOM     53  C   PRO A  12      -3.977  -8.384 -12.143  1.00  0.99           C  
+ATOM     54  CB  PRO A  12      -1.620  -7.740 -12.755  1.00  0.99           C  
+ATOM     55  O   PRO A  12      -4.163  -9.491 -11.632  1.00  0.99           O  
+ATOM     56  CG  PRO A  12      -0.792  -8.849 -12.191  1.00  0.98           C  
+ATOM     57  CD  PRO A  12      -0.880  -8.796 -10.693  1.00  0.98           C  
+ATOM     58  N   GLY A  13      -4.864  -7.858 -12.921  1.00  0.98           N  
+ATOM     59  CA  GLY A  13      -5.986  -8.610 -13.460  1.00  0.98           C  
+ATOM     60  C   GLY A  13      -5.560  -9.755 -14.359  1.00  0.99           C  
+ATOM     61  O   GLY A  13      -4.399  -9.834 -14.765  1.00  0.99           O  
+ATOM     62  N   GLY A  14      -6.326 -10.680 -14.587  1.00  0.99           N  
+ATOM     63  CA  GLY A  14      -6.098 -11.745 -15.551  1.00  0.98           C  
+ATOM     64  C   GLY A  14      -6.090 -11.257 -16.988  1.00  0.99           C  
+ATOM     65  O   GLY A  14      -6.553 -10.152 -17.276  1.00  0.99           O  
+ATOM     66  N   GLY A  15      -5.638 -11.855 -17.827  1.00  0.98           N  
+ATOM     67  CA  GLY A  15      -5.623 -11.546 -19.248  1.00  0.98           C  
+ATOM     68  C   GLY A  15      -6.962 -11.779 -19.923  1.00  0.98           C  
+ATOM     69  O   GLY A  15      -7.862 -12.384 -19.337  1.00  0.98           O  
+ATOM     70  N   PRO A  16      -7.481 -11.268 -20.757  1.00  0.99           N  
+ATOM     71  CA  PRO A  16      -8.743 -11.343 -21.497  1.00  0.98           C  
+ATOM     72  C   PRO A  16      -9.024 -12.741 -22.043  1.00  0.98           C  
+ATOM     73  CB  PRO A  16      -8.543 -10.342 -22.637  1.00  0.98           C  
+ATOM     74  O   PRO A  16      -8.103 -13.551 -22.180  1.00  0.98           O  
+ATOM     75  CG  PRO A  16      -7.063 -10.277 -22.834  1.00  0.97           C  
+ATOM     76  CD  PRO A  16      -6.394 -10.529 -21.513  1.00  0.96           C  
