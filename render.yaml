@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: protein-prediction-backend
-    runtime: python
-    buildCommand: "pip install -r backend/requirements.txt"
-    startCommand: "bash backend/start.sh"
-    envVars:
-      - key: PYTHON_VERSION
-        value: "3.11.9"
