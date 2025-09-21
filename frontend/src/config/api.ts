@@ -1,6 +1,6 @@
 // API Configuration
-// Update this URL when you have your Render backend URL
-export const API_BASE_URL = 'https://your-backend-app.onrender.com';
+// Hardcoded backend URL from Render deployment
+export const API_BASE_URL = 'https://protein-prediction-backend.onrender.com';
 
 // For local development, uncomment this line:
 // export const API_BASE_URL = 'http://localhost:5000';

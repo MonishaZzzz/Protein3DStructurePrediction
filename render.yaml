@@ -3,7 +3,7 @@ services:
     name: protein-prediction-backend
     runtime: python
     buildCommand: "pip install -r backend/requirements.txt"
-    startCommand: "cd backend && gunicorn app:app --config gunicorn_config.py"
+    startCommand: "bash backend/start.sh"
     envVars:
       - key: PYTHON_VERSION
         value: "3.11.9"
