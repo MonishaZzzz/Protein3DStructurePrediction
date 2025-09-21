@@ -5,6 +5,7 @@ import {
   useEffect,
   ReactNode,
 } from "react";
+import { API_BASE_URL } from "../config/api";
 
 // Job types
 export interface Job {
@@ -27,9 +28,6 @@ interface JobContextType {
 }
 
 const JobContext = createContext<JobContextType | undefined>(undefined);
-
-// API base URL - should match your backend server
-const API_BASE_URL = "http://localhost:5000";
 
 export function JobProvider({ children }: { children: ReactNode }) {
   const [currentJob, setCurrentJob] = useState<string | null>(null);
