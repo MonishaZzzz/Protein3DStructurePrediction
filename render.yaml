@@ -6,4 +6,4 @@ services:
     startCommand: "cd backend && gunicorn app:app --config gunicorn_config.py"
     envVars:
       - key: PYTHON_VERSION
-        value: "3.10"
+        value: "3.11.9"
